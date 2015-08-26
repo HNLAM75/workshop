@@ -2,7 +2,7 @@ USE [master]
 GO
 
 /****** Object:  Database [RealEstate]    Script Date: 26-8-2015 19:33:29 ******/
-CREATE DATABASE [RealEstate] ON  PRIMARY 
+CREATE DATABASE [RealEstates] ON  PRIMARY 
 ( NAME = N'RealEstate', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\DATA\RealEstate.mdf' , SIZE = 4096KB , MAXSIZE = UNLIMITED, FILEGROWTH = 1024KB )
  LOG ON 
 ( NAME = N'RealEstate_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\DATA\RealEstate_log.ldf' , SIZE = 3136KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)
